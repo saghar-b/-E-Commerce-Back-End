@@ -23,15 +23,19 @@ Here are some guidelines to help you get started:
 2. make sure you installed Node on your visual studio 
 3.  Run the `npm init -y` comand in your terminal (your can see _package.json_ file in your folder)
 4.  Run `npm install express mysql2 sequelize dotenv ` comand in your terminal to get all the libraries 
-5.  create .env file and inter your information like bellow:
-![env](./Assets/env%20file.png)  
+5.  create .env file and inter your information
+ 
 
 6.  open terminl 
 7. start the terminal from server.js
 8.  run the `npm run schema` in terminal
-10. run the `npm run seed` in terminal
-11. 6.  run the `node server.js`in terminal
-12. start insomnia GET `localhost:3001/api/categories` and keep continue for the rest 
+9.  run the `npm run seed` in terminal
+10. 6.  run the `node server.js`in terminal
+11. start insomnia GET `localhost:3001/api/categories` and keep continue for the rest 
+
+## Demo video
+demo video is in the link beloow:
+[Demo Link](https://drive.google.com/file/d/1kBW5EUJR5igYmSGVZGITp2NschweM2PX/view)
 
 ## my work
 * by adding database name, MySQL username, and MySQL password to an environment variable file, then you able to connect to a database using Sequelize
